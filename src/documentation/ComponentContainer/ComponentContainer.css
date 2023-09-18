@@ -1,0 +1,20 @@
+.component-header {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.component-header h2,
+.component-container h3 {
+  font-weight: 500;
+}
+
+.component-container h3 {
+  padding: 0.5rem 0;
+}
+
+.component-content {
+  background-color: var(--bg-secondary);
+  border-radius: var(--border-radius);
+  margin: 0.75rem 0;
+}

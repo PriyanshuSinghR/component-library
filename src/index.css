@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Source+Code+Pro&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  min-height: 100vh;
+}
+
+:root {
+  --primary-color: #5b53fa;
+  --primary-hover: #4b42fa;
+  --primary-disabled: #6462f5;
+  --secondary-color: #413fca;
+  --secondary-hover: #4f48d3;
+  --secondary-disabled: #755beb;
+
+  --white: #fff;
+  --bg-color: #181818;
+  --bg-secondary: #242424;
+  --bg-ternary: #444343;
+
+  --black: #000;
+  --text-color: #cccccc;
+  --text-secondary: #3d3d3d;
+
+  --border-radius: 0.25rem;
+
+  --status-online: #00af00;
+  --status-offline: #808080;
+  --status-dnd: #ff0000;
+
+  --success-bg: #a3ff9b;
+  --success-color: #2bd825;
+  --success-hover: #17cf11;
+  --warning-bg: #fcf086;
+  --warning-color: #fdcf00;
+  --warning-hover: #f0d800;
+  --danger-bg: #ff9d9d;
+  --danger-color: #ff2c2c;
+  --danger-hover: #ee1e1e;
+
+  --heading-1: 48px;
+  --heading-2: 32px;
+  --heading-3: 24px;
+  --heading-4: 16px;
+  --heading-5: 8px;
+
+  --line-ht-1: 64px;
+  --line-ht-2: 40px;
+  --line-ht-3: 32px;
+  --line-ht-4: 24px;
+  --line-ht-5: 16px;
+}

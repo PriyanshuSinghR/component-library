@@ -1,0 +1,69 @@
+.nav {
+  padding: 1rem 2.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--black);
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 20;
+}
+
+.logo-name {
+  font-size: 1.65rem;
+  font-weight: 500;
+}
+
+.nav-middle .searchbar {
+  border: 1px solid var(--text-secondary);
+  border-radius: var(--border-radius);
+}
+
+.searchbar input {
+  padding: 0.5rem 1rem;
+  outline: none;
+  border: none;
+  border-radius: var(--border-radius);
+  background-color: var(--bg-secondary);
+  color: var(--text-primary);
+}
+
+.searchbar button {
+  padding: 0.5rem 1rem;
+  border: none;
+  background-color: var(--primary-color);
+  color: var(--white);
+  border-radius: 0 var(--border-radius) var(--border-radius) 0;
+}
+
+.searchbar button:hover {
+  background-color: var(--primary-hover);
+  cursor: pointer;
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 2.2rem;
+  font-size: 1.1rem;
+}
+
+.nav-right p {
+  padding-bottom: 0.25rem;
+}
+
+.nav-right p:hover {
+  border-bottom: 2px solid var(--primary-color);
+  cursor: pointer;
+}
+
+.nav-right .github-icon {
+  font-size: 1.5rem;
+  transition: transform 0.4s ease-out;
+}
+.nav-right .github-icon:hover {
+  transform: scale(1.08);
+  cursor: pointer;
+}
